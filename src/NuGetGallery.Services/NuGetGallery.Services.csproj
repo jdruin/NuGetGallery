@@ -66,6 +66,8 @@
     <Compile Include="Authentication\ChallengeResult.cs" />
     <Compile Include="Authentication\CredentialKind.cs" />
     <Compile Include="Authentication\CredentialViewModel.cs" />
+    <Compile Include="Authentication\Providers\ActiveDirectory\ActiveDirectoryAuthenticator.cs" />
+    <Compile Include="Authentication\Providers\ActiveDirectory\ActiveDirectoryAuthenticatorConfiguration.cs" />
     <Compile Include="Authentication\Providers\ApiKey\ApiKeyAuthenticationExtensions.cs" />
     <Compile Include="Authentication\Providers\ApiKey\ApiKeyAuthenticationHandler.cs" />
     <Compile Include="Authentication\Providers\ApiKey\ApiKeyAuthenticationMiddleware.cs" />
